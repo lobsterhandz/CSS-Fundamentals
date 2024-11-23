@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Submit Your Recipe 🍪✨</title>
+</head>
+<body>
+    <header>
+        <h1>Submit Your Recipe - Let's Get Creative! 🌟</h1>
+        <p>Alright, time to make history, one cookie at a time. Fill out the form below and share your sweet masterpiece. No gatekeeping here, just cookie dreams becoming reality!</p>
+    </header>
+    <main>
+        <form action="/submit" method="post">
+            <label for="recipe-name">Recipe Name (Get Creative!):</label>
+            <input type="text" id="recipe-name" name="recipe-name" required placeholder="The Ultimate Cookie Surprise">
+
+            <label for="ingredients">Ingredients (Spill the secrets!):</label>
+            <textarea id="ingredients" name="ingredients" required placeholder="List all the secret sauces..."></textarea>
+
+            <label for="instructions">Instructions (Tell us how it's done like a pro!):</label>
+            <textarea id="instructions" name="instructions" required placeholder="Give us the step-by-step magic formula..."></textarea>
+
+            <button type="submit">Submit Recipe 🔥</button>
+        </form>
+    </main>
+    <footer>
+        <p>Thank you for sharing your magic. Together, we will conquer the cookie world! 🍪🌍</p>
+    </footer>
+</body>
+</html>

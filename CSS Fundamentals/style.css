@@ -1,0 +1,104 @@
+/* General Styles for All Files */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #f5f5f5; /* Soft background for easy reading */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff6347;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px dashed #ffa07a;
+}
+
+#recipe {
+    border: 4px solid #ff4500;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #fffbe7;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Add a subtle grow effect */
+}
+
+/* Added hover effect for links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Changes link color when hovered */
+    text-decoration: underline; /* Adds underline effect */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin: 10px 0 5px 0;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ff6347;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff4500;
+    outline: none;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e53e30;
+    transform: scale(1.1);
+}
